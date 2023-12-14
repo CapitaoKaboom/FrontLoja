@@ -1,5 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root{
+    color: purple;
+    color: magenta;
+}
+main{
+    background-color: var(--color-purple-200);
+    padding: 50px;
+    border-radius: 16px;
+    margin: 160px;    
+}
+body{
+    background-color: var( --color-purple-300);
+    display: flex;
+    justify-content: center; 
+}
+button{
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }

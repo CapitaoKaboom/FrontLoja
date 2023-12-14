@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <form>
-            <label for="log-valor-despesas">Despesas do produto</label>
+    <h1>Seja bem vindo a nossa empresa onde estamos sempre presando pela qualidade dos nossos produtos :)</h1>
+    <main id="main-login">
+        <img src="https://i.pinimg.com/originals/ff/8a/05/ff8a05826ac49fe8006e3432193f59a3.png" id="logo">
+        <a id="login" href="./cadastro">Cadastrar-se</a>
+        <form action="" method="post">
+            <label>Email</label>
             <br>
-            <input id="log-valor-despesas" type="text">
+            <input type="email" name="email" id="email">
             <br>
-            <label for="log-valor-lucro">Lucro do produto</label>
+            <label>Senha</label>
             <br>
-            <input id="log-valor-lucro" type="text">
-            <br>
-            <label for="log-valor-venda">Venda do produto</label>
-            <br>
-            <input id="log-valor-venda" type="text">
+            <input type="password" name="senha" id="senha">
+            <br><br>
+            <button type="submit">Logar</button>
         </form>
     </main>
+
+    <script type="module" src="./script.js"></script>
 </body>
+
 </html>
